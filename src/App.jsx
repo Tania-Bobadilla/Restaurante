@@ -1,5 +1,7 @@
 
+import "./App.css"
 import AppRoutes from "./components/routes/AppRoutes"
+
 
 // import Home from "./components/Home"
 // import Menu from "./components/Menu"
@@ -8,7 +10,7 @@ import AppRoutes from "./components/routes/AppRoutes"
 function App () {
   return(
     <div>
-      <AppRoutes/>
+      <AppRoutes/>   
     </div>
   )
 }

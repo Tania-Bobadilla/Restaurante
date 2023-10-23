@@ -1,1 +1,23 @@
+.column{
+    border: 1px solid white;
+}
 
+.card{
+    border: 0 !important;
+}
+
+li{
+    list-style: none;
+}
+
+
+.footer-lists{
+    /* display: flex; */
+    justify-content: space-around;
+   
+}
+
+
+.footer{
+    margin-bottom: 0 !important;
+}
