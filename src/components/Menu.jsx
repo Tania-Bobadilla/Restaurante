@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../config/Firebase";
-import { Button, Card, CardGroup } from "react-bootstrap"
+import { Card, CardGroup } from "react-bootstrap"
 
 const Menu = () => {
 
@@ -35,23 +35,23 @@ const Menu = () => {
     getMenu() 
 }, [])
 
-console.log(menu)
+// console.log(menu)
 
     
 
 
   return (
-    <section>
-        <h1 className="text-center">Menu</h1>
-        <CardGroup className="justify-content-center mt-5">
+    <section className="menu">
+        <h1 className="text-center">Menú</h1>
+        <CardGroup className="justify-content-center mt-5 text-center">
             {menu.map((item) => (
                 <div key={item.id} className="mx-3 ms-3">
                     <Card style={{width: "18rem", height: "420px"}}>
-                        <Card.Img style={{height: "200px"}} variant="top" src={item.imagen} alt={item.nombre} />
+                        <Card.Img style={{height: "200px"}} variant="top" src={item.imagen} alt={item.nombre} className="justify-content-center" />
                         <Card.Body>
                             <Card.Title>{item.nombre.toUpperCase()}</Card.Title>
-                            <Card.Text style={{height: "100px"}}>{item.descripcion}</Card.Text>
-                            <Button variant="success">Precio: ${item.precio} clp</Button>
+                            <Card.Text style={{height: "50px"}}>{item.descripcion}</Card.Text>
+                            <Card.Text>Precio: {item.precio}</Card.Text>
                         </Card.Body>
                     </Card>
                 </div>

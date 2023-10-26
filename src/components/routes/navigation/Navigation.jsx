@@ -4,11 +4,10 @@ import { NavLink } from "react-router-dom"
 
 const Navigation = () => {
   return (
-    <Navbar className="d-flex m-2">
-        <NavLink to="/home" className="me-auto p-2 bd-highlight">home</NavLink>
-        <NavLink to="/menu" className="p-2 bd-highlight">menu</NavLink>
-        <NavLink to="/reservas" className="p-2 bd-highlight">reservas</NavLink>
-        <NavLink to="/contacto" className="p-2 bd-highlight">contacto</NavLink>
+    <Navbar className="navbar alert alert-dismissible alert-primary mb-4">
+        <NavLink to="/home" className="link link-home me-auto p-2 bd-highlight display-4">Hariyali</NavLink>
+        <NavLink to="/menu" className="link link-menu m-2 p-1 bd-highlight h4">Menú</NavLink>
+        <NavLink to="/contacto" className="link link-contact m-2 p-1 bd-highlight h4">Contacto</NavLink>
         
     </Navbar>
   )
