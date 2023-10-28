@@ -5,16 +5,16 @@ const HeroSlider2 = () => {
   return (       
         <Carousel interval={null} className="text-center container-md">
               <Carousel.Item>
-                  <img src="../../public/assets/res1.jpg"/>
+                  <img src="../../assets/res1.jpg"/>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img src="../../public/assets/food..jpg"/>
+                  <img src="../../assets/food..jpg"/>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img src="../../public/assets/res2.webp"/>
+                  <img src="../../assets/res2.webp"/>
               </Carousel.Item>
               <Carousel.Item>
-                  <img src="../../public/assets/samosas.jpg"/>
+                  <img src="../../assets/samosas.jpg"/>
               </Carousel.Item>
         </Carousel>
   )

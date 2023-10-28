@@ -1,16 +1,11 @@
 @font-face {
     font-family: Amiri;
-    src: url(../public/fonts/Amiri.ttf) format('truetype')
-}
-
-@font-face {
-    font-family: Aladin;
-    src: url(../public/fonts/Aladin.ttf) format('truetype')
+    src: url(../fonts/Amiri.ttf) format('truetype')
 }
 
 @font-face {
     font-family: Khaleefa;
-    src: url(../public/fonts/Khaleefa.otf) format('opentype')
+    src: url(../fonts/Khaleefa.otf) format('opentype')
 }
 
 
@@ -22,8 +17,8 @@
     font-family: Khaleefa, sans-serif;
 }
 
-.about-text, .menu, .link-menu, .link-contact, form, .footer{
-    font-family: Amiri, sans-serif;
+.about-text, .menu, .link-menu, .link-contact, form, .footer, .booking, .booking-btn{
+    font-family: Amiri, sans-serif !important;
     color: aliceblue !important;
 
 }
@@ -58,8 +53,4 @@ li, .link-home, .link-menu, .link-contact{
     display: flex;
     margin: 3px !important;
 }
-/* 
-.p-2{
-    padding: 0rem !important;
-} */
 

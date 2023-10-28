@@ -1,7 +1,5 @@
-// import HeroSlider from "./HeroSlider"
-
-import BookingForm from "./BookingForm"
-import HeroSlider2 from "./HeroSlider2"
+import BookingForm from "../components/BookingForm";
+import HeroSlider2 from "../components/HeroSlider2";
 
 const Home = () => {
   return (
