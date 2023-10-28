@@ -11,10 +11,10 @@ const HeroSlider2 = () => {
                   <img src="assets/food..jpg"/>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img src="assets/images/res2.webp"/>
+                  <img src="assets/res2.webp"/>
               </Carousel.Item>
               <Carousel.Item>
-                  <img src="assets/images/samosas.jpg"/>
+                  <img src="assets/samosas.jpg"/>
               </Carousel.Item>
         </Carousel>
   )
