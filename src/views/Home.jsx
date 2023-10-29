@@ -1,6 +1,7 @@
 import BookingForm from "../components/BookingForm";
 import HeroSlider2 from "../components/HeroSlider2";
 
+
 const Home = () => {
   return (
     <main>
@@ -12,6 +13,7 @@ const Home = () => {
         </p>
       </section>
       <BookingForm/>
+      
       
     </main>
   )

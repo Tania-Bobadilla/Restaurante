@@ -43,19 +43,19 @@ const BookingForm = () => {
 
   return (
       <div className="text-center mb-5 container-md">
-        <h1 className="booking">Reserva aquí</h1>
-          <form onSubmit={saveInputs} className="text-center mb-3 d-flex p-3 col-md justify-content-center">
+        <h1 className="booking mb-3">Reserva aquí</h1>
+          <form onSubmit={saveInputs} className="text-center mb-3 d-flex col-md justify-content-center">
 
             <div className="d-flex booking-form justify-content-center">
               {/* el valor del input siempre es el estado inicial que se le asigno */}
-              <input className="form-control m-3" type="text" name="name" placeholder="ingresa tu nombre" onChange={captureInputs} value={reservation.name} />
-              <input className="form-control m-3" type="time" name="hour" onChange={captureInputs} value={reservation.hour} />
-              <input className="form-control m-3" type="date" name="date" onChange={captureInputs} value={reservation.date}/>              
+              <input className="m-1 form-control" type="text" name="name" placeholder="Ingresa tu nombre" onChange={captureInputs} value={reservation.name} />
+              <input className="m-1 form-control" type="time" name="hour" onChange={captureInputs} value={reservation.hour} />
+              <input className="m-1 form-control" type="date" name="date" onChange={captureInputs} value={reservation.date}/>      
+
+              <button className="m-1 booking-btn btn btn-primary">Reservar</button>        
             </div>
 
           </form>
-          
-          <button className="booking-btn btn btn-primary">Reservar</button>
       </div>
   )
 }
