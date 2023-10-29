@@ -1,8 +1,8 @@
 # Proyecto 4: Restaurant
 
-## Link: https://restaurante.vercel.app/
+## Link: https://restaurante-j1mh.vercel.app/
 
-El siguiente proyecto consiste en una single page de un restaurante ficticio hecha con React que está conectada a la base de datos de Firebase en donde se pueden alojar, usar imágenes y guardar datos enviados desde sus formularios.
+El siguiente proyecto consiste en una single hecha con React de un restaurante ficticio que está conectada a la base de datos de Firebase en donde se pueden alojar, usar imágenes y guardar datos enviados desde sus formularios.
 
 ## Tecnologías utilizadas
 
