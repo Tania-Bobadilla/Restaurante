@@ -2,7 +2,7 @@
 
 ## Link: https://restaurante-j1mh.vercel.app/
 
-El objetivo del siguiente proyecto fue crear una single page de un restaurante ficticio con React y que estuviese conectada a la base de datos de Firebase para poder alojar y usar imágenes y tambien poder guardar datos enviados desde los formularios de dicha página.
+El objetivo del siguiente proyecto fue crear una single page de un restaurante ficticio con React que estuviese conectada a la base de datos de Firebase para poder alojar, usar imágenes y guardar datos enviados desde los formularios de dicha página.
 
 ## Tecnologías utilizadas
 - HTML
