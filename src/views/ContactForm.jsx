@@ -58,7 +58,7 @@ const ContactForm = () => {
             
               <input className="form-control p-3 mb-2" type="text" name="email" placeholder="Correo" onChange={captureInputs} value={user.email}/>
 
-              <textarea className="form-control p-3" name="text" placeholder="Escribe tu consulta/segerencia/reclamo aquí" onChange={captureInputs} value={user.text}></textarea>
+              <textarea className="form-control p-3" name="text" placeholder="Escribe tu consulta, sugerencia o reclamo aquí" onChange={captureInputs} value={user.text}></textarea>
 
               <button className="btn btn-primary mt-3">Enviar</button>
             </div>
