@@ -4,8 +4,6 @@
 
 El siguiente proyecto consiste en una single hecha con React de un restaurante ficticio que está conectada a la base de datos de Firebase en donde se pueden alojar, usar imágenes y guardar datos enviados desde sus formularios.
 
-SSSS
-
 ## Tecnologías utilizadas
 
 - CSS

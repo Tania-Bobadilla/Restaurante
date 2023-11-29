@@ -9,12 +9,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC8oYKZ-YuXX2mKQ6O68ou-JEu6q4flSzU",
-  authDomain: "restaurant-41943.firebaseapp.com",
-  projectId: "restaurant-41943",
-  storageBucket: "restaurant-41943.appspot.com",
-  messagingSenderId: "225397275003",
-  appId: "1:225397275003:web:25aa99e0e24073602665de"
+  apiKey: "AIzaSyDTc6HGFSjx9hiqHYPRoA9q7a0UvpLVLnw",
+  authDomain: "restaurant-hariyali.firebaseapp.com",
+  projectId: "restaurant-hariyali",
+  storageBucket: "restaurant-hariyali.appspot.com",
+  messagingSenderId: "92430149997",
+  appId: "1:92430149997:web:2a8e3290e002358505d264"
 };
 
 // Initialize Firebase
